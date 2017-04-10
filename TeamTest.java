@@ -3,7 +3,7 @@ import org.junit.*;
 
 public static void main(String[] args){
 
-  public class TeamTest{
+  public TeamTest{
   Team team;
   Player player;
 
@@ -18,5 +18,4 @@ public static void main(String[] args){
     assertEquals("Cleveland Cavaliers", team.getName());
   }
 
-}
 }
