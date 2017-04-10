@@ -7,12 +7,21 @@ public class Team {
     this.players = new Player[5];
   }
 
+  public String getName(){
+    return this.name;
+  }
+
+  public Player[] getPlayers(){
+    return this.players;
+  }
+
   public void draft(Player player){
-    if(this.players.length() >=5){
+    if(this.players.length >=5){
       return;
     }
-    int playerCount = this.players.length();
+    int playerCount = this.players.length;
     this.players[playerCount] = player;
   }
+
 
   }
